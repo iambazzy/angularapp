@@ -1,0 +1,37 @@
+#navbarParent {
+  height: 40px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.entity {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.justify-left {
+  margin-right: auto;
+}
+.entity:hover {
+  background: lightgray;
+  -webkit-transition: background 1s;
+  color: black;
+}
+.justify-left:hover {
+  background-color: black;
+  color: white;
+}
+.justify-left > a:hover {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}

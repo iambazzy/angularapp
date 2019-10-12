@@ -1,0 +1,6 @@
+.sideMenu {
+  flex: 1;
+  background-color: greenyellow;
+  padding: 5px;
+  height: 100vh;
+}

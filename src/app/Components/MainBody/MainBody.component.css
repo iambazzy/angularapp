@@ -1,0 +1,11 @@
+.mainBody {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+.holderSide {
+  flex: 1;
+}
+.holderContent {
+  flex: 5;
+}
